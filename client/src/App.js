@@ -3,8 +3,6 @@ import Axios from "axios";
 import "./style.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 function App() {
   const [products, setProducts] = useState([]);
 
@@ -15,6 +13,7 @@ function App() {
     const products = data;
     setProducts(products);
     console.log(products);
+    console.log("askhdjkasdh");
   };
 
   useEffect(() => {
